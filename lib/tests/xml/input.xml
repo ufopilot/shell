@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+ <input>
+    <pattern>
+        <name>ABC</name>
+        <code>1234</code>
+        <format>txt</format>
+    </pattern>
+ </input>
+ <input>
+    <pattern>
+        <name>XYZ</name>
+        <code>7799</code>
+        <format>csv</format>
+     </pattern>
+     </input>
+</config>

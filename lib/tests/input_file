@@ -1,0 +1,36 @@
+# function 1
+upr()
+{
+    for chr; do
+       case $chr in
+         [a-z]*) chr_opts="-n" nxt -32 "$chr" ;;
+         *) printf "%c${sep}" "$chr" 2>/dev/null ;;
+       esac
+    done
+}
+
+# function 2
+func2(){
+   foo="bar"
+   while :; do
+     echo ${#foo}
+     sleep 5
+   done
+}
+
+# function 3
+func3() {
+   foo=2 bar=1
+   echo "${foo}" "$bar"
+}
+
+func4 (){ echo blub; }
+# end
+
+for func in upr func2 func3; do
+   echo '```bash'
+   type $func | sed '1'd
+   echo '```'
+done
+
+declare -fp upr

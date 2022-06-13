@@ -1,0 +1,28 @@
+<l7:List xmlns:l7="http://ns.l7tech.com/2010/04/gateway-management">
+    <l7:Name>REVOCATION_CHECK_POLICY List</l7:Name>
+    <l7:Type>List</l7:Type>
+    <l7:TimeStamp>2022-05-30T12:36:16.994Z</l7:TimeStamp>
+    <l7:Link rel="self" uri="https://myhost02.xxxx.com:8443/restman/1.0/revocationCheckingPolicies"/>
+    <l7:Link rel="template" uri="https://myhost02.xxxx.com:8443/restman/1.0/revocationCheckingPolicies/template"/>
+    <l7:Item>
+        <l7:Name>OCSPREVOCATIONVALIDATION</l7:Name>
+        <l7:Id>a60c5a8714b2e519a6c23192cf09ded5</l7:Id>
+        <l7:Type>REVOCATION_CHECK_POLICY</l7:Type>
+        <l7:TimeStamp>2022-05-30T12:36:16.994Z</l7:TimeStamp>
+        <l7:Link rel="self" uri="https://myhost02.xxxx.com:8443/restman/1.0/revocationCheckingPolicies/a60c5a8714b2e519a6c23192cf09ded5"/>
+        <l7:Resource>
+            <l7:RevocationCheckingPolicy id="a60c5a8714b2e519a6c23192cf09ded5" version="20">
+                <l7:Name>OCSPREVOCATIONVALIDATION</l7:Name>
+                <l7:DefaultPolicy>true</l7:DefaultPolicy>
+                <l7:ContinueOnServerUnavailable>false</l7:ContinueOnServerUnavailable>
+                <l7:DefaultSuccess>false</l7:DefaultSuccess>
+                <l7:RevocationCheckItems>
+                    <l7:Type>OCSP from URL</l7:Type>
+                    <l7:Url>http://foo.west.dev.xxxx.com:80</l7:Url>
+                    <l7:AllowIssuerSignature>true</l7:AllowIssuerSignature>
+                    <l7:TrustedSigners>3c880ed5addceb2e9ef308074f2c353f</l7:TrustedSigners>
+                </l7:RevocationCheckItems>
+            </l7:RevocationCheckingPolicy>
+        </l7:Resource>
+    </l7:Item>
+</l7:List>  

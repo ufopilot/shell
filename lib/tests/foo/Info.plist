@@ -1,0 +1,22 @@
+<dict>
+<key>Nation</key>
+<dict>
+   <key>Countries</key>
+    <dict>
+        <key>USA</key>
+        <dict>
+           <key>Capital</key>
+           <string>Washington DC</string>
+           <key>Continent</key>
+           <string>North America</string>
+        </dict>
+           <key>Italy</key>
+        <dict>
+           <key>Capital</key>
+           <string>Rome</string>
+           <key>Continent</key>
+           <string>Europe</string>
+        </dict>
+    </dict>
+ </dict>
+</dict>

@@ -1,0 +1,3 @@
+     1	/opt/dev/shell/work/list/addStringToLast.sh
+     2	/opt/dev/shell/work/list/cols.txt
+     3	/opt/dev/shell/work/list/cols2.txt

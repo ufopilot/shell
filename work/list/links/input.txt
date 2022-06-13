@@ -1,0 +1,4 @@
+.bss LPP_procMailEmptyPrioLevel 1
+.idata LPP_interruptPdb 25
+.izero LPP_procGspProcessPinned 1
+.izero LPIP_procGspProcessPinned 1

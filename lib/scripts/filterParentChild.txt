@@ -1,0 +1,13 @@
+Value.thing_thing_g1  
+Value.thing_thing_g1.t1  
+Value.thing_thing_g1.t2  
+Value.thing_thing_g1.t3  
+Value.thing_thing_g2  
+Value.thing_thing_g2.t1  
+Value.thing_thing_g3  
+Value.thing_thing_g3.t1  
+Value.thing_thing_g3.t2  
+Value.thing_thing_g4   
+Value.thing_thing_g5  
+Value.thing_thing_g5.t1 
+Value.thing_thing_g6

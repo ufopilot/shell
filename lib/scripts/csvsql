@@ -1,0 +1,54 @@
+#!/bin/bash
+trap csql_on_exit EXIT
+
+db="csql.db$$"
+csql_on_exit(){ rm -f "$db"; }
+
+csql(){
+    csql_usage(){
+            echo "csql: exec sql on csv files" 
+            echo "  import table: -s <separator> -i -f <file> -t <table>"
+            echo "  exec sql: -h[header] -c[mode column] -s <separator> -e <sql-statement>"
+            echo "default separator is ${SEPARATOR}"
+            exit 1
+            }
+    local SEPARATOR=","
+    local OPTIND o STATEMENT FILE IMPORT TABLE COLUMN HEADER
+    while getopts ":ce:f:hHis:t:" o; do
+        case "${o}" in
+            c) COLUMN="-column";;
+            e) STATEMENT="${OPTARG}";;
+            f) FILE=${OPTARG};;
+            i) IMPORT=1;;
+            s) SEPARATOR="${OPTARG}";;
+            t) TABLE="${OPTARG}";;
+            h) HEADER="-header";;
+            H) csql_usage
+        esac
+    done
+    shift $((OPTIND-1)) 
+    [ -z "${STATEMENT}" -a -z "${IMPORT}" ] && csql_usage
+    [ -n "${IMPORT}" ] && {
+        #export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/sqlite3
+        #sqlite3 "${db}" "SELECT load_extension('/usr/lib/sqlite3/pcre.so')"
+        #sqlite3 "${db}" ".mode csv"
+        sqlite3 -csv -separator "${SEPARATOR}" "${db}" ".import \"${FILE}\" \"${TABLE}\""
+        #echo "SELECT load_extension('/usr/lib/sqlite3/pcre.so')"|sqlite3 "$db" 
+
+    }
+     
+    [ -n "${STATEMENT}" ] && sqlite3  ${HEADER}  ${COLUMN} -separator "${SEPARATOR}" "${db}" "${STATEMENT}" 
+}
+#
+#csql -i -f ../input/employees.csv -t employees
+
+#csql -i -s "," -f ../input/salary.csv -t salary
+#csql -s "," -e "select a.Name, b.Salary from employees a, salary b where a.ID = b.ID"
+#csql -s "|" -e "SELECT name FROM pragma_table_info('employees')" 
+
+#csql -e "select Name from employees where name REGEXP '^J'"
+# ------------------------------------------------------------
+csql -i -f ../input/data.csv -t mytable
+max=$(csql -e "select max(value) from mytable")
+echo $max
+csql -e "select year from mytable where value = $max"

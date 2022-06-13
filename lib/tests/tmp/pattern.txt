@@ -1,0 +1,12 @@
+pattern
+1st line
+2nd line
+3rd line
+4th line  
+5th line
+pattern 2
+1st line after second patter
+2nd line after second pattern
+3rd line after second pattern
+4th line after second pattern
+5th line after second pattern

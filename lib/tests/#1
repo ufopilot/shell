@@ -1,0 +1,16 @@
+--2022-05-31 13:08:20--  https://example.com/file=1.0
+Resolving example.com (example.com)... 93.184.216.34, 2606:2800:220:1:248:1893:25c8:1946
+Connecting to example.com (example.com)|93.184.216.34|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2022-05-31 13:08:23 ERROR 404: Not Found.
+
+--2022-05-31 13:08:23--  https://example.com/file=1.1
+Reusing existing connection to example.com:443.
+HTTP request sent, awaiting response... 404 Not Found
+2022-05-31 13:08:23 ERROR 404: Not Found.
+
+--2022-05-31 13:08:23--  https://example.com/file=1.2
+Reusing existing connection to example.com:443.
+HTTP request sent, awaiting response... 404 Not Found
+2022-05-31 13:08:23 ERROR 404: Not Found.
+

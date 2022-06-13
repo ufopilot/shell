@@ -1,0 +1,9 @@
+Index  AllocTres                              CPUTotal
+1      cpu=1,mem=256G                         18
+2      cpu=2,mem=1024M                        16
+3                                             4
+4      cpu=12,gres/gpu=3                      12
+5                                             8
+6                                             9
+7      cpu=13,gres/gpu=4,gres/gpu:ret6000=2   20
+8      mem=12G,gres/gpu=3,gres/gpu:1080ti=1   21

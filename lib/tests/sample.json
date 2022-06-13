@@ -1,0 +1,27 @@
+{
+  "page": {
+    "currentPage": 1,
+    "totalPages": 7,
+    "pageSize": 10000
+  },
+  "useraccesses": [
+    {
+      "userAccessId": 918568786,
+      "numberOfAccessSchedules": 2,
+      "customAttributes": {},
+      "networkElementUserId": ""
+    },
+    {
+      "userAccessId": 918569013,
+      "numberOfAccessSchedules":    1,
+      "customAttributes": {},
+      "networkElementUserId": ""
+    },
+    {
+      "userAccessId": 918569301,
+      "numberOfAccessSchedules": 0,
+      "customAttributes": {},
+      "networkElementUserId": ""
+    }
+   ]
+}

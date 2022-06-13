@@ -1,0 +1,4 @@
+<security-role-assignment>
+    <role-name>beanA_users</role-name>
+    <principal-name>runas_a</principal-name>
+</security-role-assignment>

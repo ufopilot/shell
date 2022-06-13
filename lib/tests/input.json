@@ -1,0 +1,50 @@
+[
+    {
+            "Key": "/builder-deployer/test2/services/serviceA/ip",
+            "Val": "10.1.2.1"
+        },
+        {
+            "Key": "/builder-deployer/test2/services/serviceA/port",
+            "Val": "2"
+        },
+        {
+            "Key": "/builder-deployer/test2/services/serviceA/url",
+            "Val": "serviceA.abc.com"
+        },
+        {
+            "Key": "/builder-deployer/test2/services/serviceA/username",
+            "Val": "jenkins"
+        },
+        {
+            "Key": "/builder-deployer/test2/services/serviceB/ip",
+            "Val": "10.1.2.2"
+        },
+        {
+            "Key": "/builder-deployer/test2/services/serviceB/port",
+            "Val": "3"
+        },
+        {
+            "Key": "/builder-deployer/test2/services/serviceB/url",
+            "Val": "serviceB.abc.com"
+        },
+        {
+            "Key": "/builder-deployer/test2/services/serviceB/username",
+            "Val": "jenkins"
+        },
+        {
+            "Key": "/builder-deployer/test2/services/serviceC/ip",
+            "Val": "10.1.2.2"
+        },
+        {
+            "Key": "/builder-deployer/test2/services/serviceC/port",
+            "Val": "4"
+        },
+        {
+            "Key": "/builder-deployer/test2/services/serviceC/url",
+            "Val": "serviceC.abc.com"
+        },
+        {
+            "Key": "/builder-deployer/test2/services/serviceC/username",
+            "Val": "jenkins"
+        }
+    ]

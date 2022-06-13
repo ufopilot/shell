@@ -1,0 +1,10 @@
+ID	Taxon
+9fdfa8e132a820fdbc126575f0d1daa9	k__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Chitinophagales; f__Chitinophagaceae; g__Ferruginibacter; s__midas_s_11
+8fa80ed445a221fb64b504e3e605e6c8	k__Bacteria; p__Nitrospirota; c__Nitrospiria; o__Nitrospirales; f__Nitrospiraceae; g__Nitrospira; s__Nitrospira_defluvii
+dece101df1f2e1a45401ed3c948c635e	k__Bacteria; p__Nitrospirota; c__Nitrospiria; o__Nitrospirales; f__Nitrospiraceae; g__Nitrospira; s__Nitrospira_defluvii
+80bd783b1e56858db62a78ff5c264e9b	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Nitrosomonadaceae; g__Nitrosomonas
+a138bd5162bef8329e50dc55a22b2da2	k__Bacteria; p__Chloroflexi; c__Anaerolineae; o__Anaerolineales; f__Anaerolineaceae; g__UTCFX1; s__midas_s_12690
+7db3477cd30c755822b947dfbaea0248	k__Bacteria; p__Bacteroidota; c__Bacteroidia; o__Cytophagales; f__Microscillaceae; g__OLB12; s__midas_s_21673
+6d52b222ce41a2076ab37ac20bbfbc8e	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Xanthomonadales; f__Rhodanobacteraceae; g__Dokdonella
+171b7079811de53e028943c19d9c2c04	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Nitrosomonadaceae; g__Nitrosomonas
+bbd1adfb8a1be5131917bf09aab1979e	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Burkholderiales; f__Nitrosomonadaceae; g__Nitrosomonas

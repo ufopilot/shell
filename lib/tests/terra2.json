@@ -1,0 +1,16 @@
+{
+  "aad_login_name": "foo",
+  "aad_login_object_id": "bar",
+  "aad_login_sp_app_id": "",
+  "aad_login_sp_password": "baz",
+  "aad_login_tenant_id": "",
+  "enable_syn_sparkpool": "",
+  "enable_syn_sqlpool": "",
+  "jumphost_password": "",
+  "jumphost_username": "",
+  "location": "",
+  "prefix": "",
+  "resource_group": "",
+  "synadmin_password": "",
+  "synadmin_username": ""
+}

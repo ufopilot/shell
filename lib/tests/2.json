@@ -1,0 +1,18 @@
+{
+    "Results": [
+        {
+            "Severity": "LOW",
+            "InstalledVersion": "1.21.1ubuntu2",
+            "FixedVersion": "1.21.1ubuntu2.1"
+        },
+        {
+            "Severity": "LOW",
+            "InstalledVersion": "1.21.1ubuntu2"
+        },
+        {
+            "Severity": "HIGH",
+            "VulnerabilityID": "CVE-2016-2781"
+        }
+    ]
+}
+

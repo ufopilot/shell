@@ -1,0 +1,7 @@
+http://assemblies/Genomes/final_assemblies/10x_assemblies_v0.1/TC_3370_chr.v0.1.liftover.CDS.fasta.gz
+http://assemblies/Genomes/final_assemblies/10x_assemblies_v0.1/TC_CB_chr.v0.1.liftover.CDS.fasta.gz
+http://assemblies/Genomes/final_assemblies/10x_assemblies_v0.1/TC_13_chr.v0.1.liftover.CDS.fasta.gz
+http://assemblies/Genomes/final_assemblies/10x_assemblies_v0.1/TC_37_chr.v0.1.liftover.CDS.fasta.gz
+http://assemblies/Genomes/final_assemblies/10x_assemblies_v0.1/TC_123_chr.v0.1.liftover.CDS.fasta.gz
+http://assemblies/Genomes/final_assemblies/10x_assemblies_v0.1/TC_195_chr.v0.1.liftover.CDS.fasta.gz
+http://assemblies/Genomes/final_assemblies/10x_assemblies_v0.1/TC_31_chr.v0.1.liftover.CDS.fasta.gz

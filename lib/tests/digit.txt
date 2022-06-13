@@ -1,0 +1,33 @@
+dn: lorem ipsum
+PersonalId: 123456
+Contacts: { big json which may contain "uniquetag:98765432:" within some attributes }
+
+dn: lorem ipsum
+PersonalId: 123456
+Contacts: { big json which may contain "uniquetag:98765432:" within some attributes }
+
+dn: lorem ipsum
+PersonalId: 123456
+Contacts: { big json which may contain "uniquetag:98765432:" within some attributes }
+
+dn: lorem ipsum
+PersonalId: 123456
+Contacts: { big json which may contain "uniquetag:98765432:" within some attributes }
+
+dn: lorem ipsum
+PersonalId: 123456
+Contacts: { big json which may contain "uniquetag::" within some attributes }
+
+dn: lorem ipsum
+PersonalId: 123456
+Contacts: { big json which may contain "uniquetag:98765432:" within some attributes }
+
+dn: lorem ipsum
+PersonalId: 123456
+Contacts: { big json which may contain "uniquetag:98765432:" within some attributes }
+
+dn: lorem ipsum
+PersonalId: 123456
+Contacts: { big json which may contain "uniquetag:98765432:" within some attributes }
+
+

@@ -1,0 +1,1 @@
+awk -v RS="</alarms>" -v ORS="</alarms>" ' devId="number" '

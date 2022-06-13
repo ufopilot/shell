@@ -1,0 +1,14 @@
+dev_mig (3624a9370402ea6a5e67a4646002114g7) dm-11 PURE,FlashArray
+size=5.0T features='0' hwhandler='0' wp=rw
+`-+- policy='queue-length 0' prio=1 status=active
+  |- 0:0:3:2 sder 129:48 active ready running
+  |- 0:0:2:2 sdep 129:16 active ready running
+  |- 1:0:2:2 sdkh 66:336 active ready running
+  `- 1:0:3:2 sdkj 66:368 active ready running
+dev_mig_temp (3624a9370402ea6a5e67a4646002114g6) dm-10 PURE,FlashArray
+size=6.0T features='0' hwhandler='0' wp=rw
+`-+- policy='queue-length 0' prio=1 status=active
+  |- 0:0:2:1 sdeo 129:0  active ready running
+  |- 0:0:3:1 sdeq 129:32 active ready running
+  |- 1:0:2:1 sdkg 66:320 active ready running
+  `- 1:0:3:1 sdki 66:352 active ready running

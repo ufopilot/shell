@@ -1,0 +1,14 @@
+vehicle:
+car
+moto
+done
+
+fruit:
+banana
+apple
+done
+
+tree:
+pine
+oak
+done

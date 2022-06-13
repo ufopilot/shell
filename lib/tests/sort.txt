@@ -1,0 +1,8 @@
+12344 Aluno4 SQS 205 F 306 Brasília DF
+12348 Aluno8 R. das Laranjeiras, 1.020 Rio de Janeiro RJ
+12343 Aluno3 Rua Guarani Campinas SP
+12347 Aluno7 Rua da Praia, 215 Porto Alegre RS
+12342 Aluno2 Av. Beira Rio, 1.005 Vitória ES
+12346 Aluno6 Av. Castro Alves, 320 Salvador BA
+12341 Aluno1 Rua Goiás, 25 Planaltina DF
+12345 Aluno5 Av. Atlântica, 110 Rio de Janeiro RJ

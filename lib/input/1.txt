@@ -1,0 +1,15 @@
+--  Address     Load       USER       grant (actual)      Host ID    Vol
+DN  10.0.0.138  221.03 MiB  256          49.9%             dd09f7aa  STG1
+DN  10.0.0.139  173.47 MiB  256          55.4%             53179492  STG1
+DN  10.0.0.136  200.08 MiB  256          53.5%             89a28140  STG1
+DN  10.0.0.137  318.69 MiB  256          48.7%             8cc9dfac  STG1
+--  Address     Load       USER       grant (actual)       Host ID    Vol
+DN  10.0.0.142  270.01 MiB  256          53.1%             04210b53  STG1
+DN  10.0.0.143  166.65 MiB  256          50.0%             d5469c9b STG1
+DN  10.0.0.140  199.51 MiB  256          47.6%             fcc38a17  STG1
+DN  10.0.0.141  170.52 MiB  256          48.3%             3d7b4e59  STG1
+--  Address     Load       USER       grant (actual)       Host ID    Vol
+DN  10.0.0.150  229.2 MiB  256           50.0%             0fa51a1a  STG1
+DN  10.0.0.151  195.88 MiB  256          51.1%             e329ac17  STG1
+DN  10.0.0.148  147.01 MiB  256          48.9%             c14bd7ae  STG1
+DN  10.0.0.149  298.34 MiB  256          51.3%             6c73d2b5  STG1
