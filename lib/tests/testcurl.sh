@@ -1,4 +1,5 @@
 #!/bin/bash
+cat > foo.txt
 
 echo args: $@
 echo arg1: $1
