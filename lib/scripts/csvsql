@@ -23,11 +23,12 @@ csql(){
             s) SEPARATOR="${OPTARG}";;
             t) TABLE="${OPTARG}";;
             h) HEADER="-header";;
-            H) csql_usage
+            H) csql_usage;;
+            *) csql_usage
         esac
     done
     shift $((OPTIND-1)) 
-    [ -z "${STATEMENT}" -a -z "${IMPORT}" ] && csql_usage
+    [[ -z "${STATEMENT}" && -z "${IMPORT}" ]] && csql_usage
     [ -n "${IMPORT}" ] && {
         #export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/sqlite3
         #sqlite3 "${db}" "SELECT load_extension('/usr/lib/sqlite3/pcre.so')"
@@ -50,5 +51,5 @@ csql(){
 # ------------------------------------------------------------
 csql -i -f ../input/data.csv -t mytable
 max=$(csql -e "select max(value) from mytable")
-echo $max
+echo "$max"
 csql -e "select year from mytable where value = $max"
