@@ -1,0 +1,11 @@
+123456789 needs to be matched.
+123-45-6789 does, too.
+Mask this 123-45-6789 SSN please
+Don't miss 123456789 either.
+123456789 should match.
+123-45-6789 should also match.
+As should 123456789
+And 123-45-6789
+But not 1234567890
+1234567890 should also not match.
+And 1234567890 is right out.

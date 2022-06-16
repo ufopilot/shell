@@ -1,0 +1,5 @@
+47185920 bytes (47 MB) copied, 1.017665 s, 46.4 MB/s
+95420416 bytes (95 MB) copied, 2.028474 s, 47.0 MB/s
+143654912 bytes (144 MB) copied, 3.049532 s, 47.1 MB/s
+190840832 bytes (191 MB) copied, 4.054060 s, 47.1 MB/s
+239075328 bytes (239 MB) copied, 5.067146 s, 47.2 MB/sKilled by signal 1.

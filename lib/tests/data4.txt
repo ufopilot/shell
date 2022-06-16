@@ -1,0 +1,3 @@
+spec:
+  values:
+    image: xxxx.dkr.ecr.eu-west-1.amazonaws.com/xxxx:mypr-ij4uhtuh3
