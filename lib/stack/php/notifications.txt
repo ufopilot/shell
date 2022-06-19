@@ -1,0 +1,18 @@
+line 1 1
+line 2 2
+line 3 3
+line 1 1
+12300USD|0392
+abc56eur|97834
+abc561ur|97834
+238aed|23911
+aabccde|38731
+73716yen|19287
+.*/|982376
+0NRT0|928731
+> bla bla /2022
+<?php
+$string = "8.54";
+$number = ($string == (int) $string) ? (int) $string : (float) $string;
+echo $number * 100 . "\n";
+?>

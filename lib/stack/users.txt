@@ -1,0 +1,22 @@
+User= yojpackco
+Domains=yojpack.com
+
+
+User= yugmaimpre
+Domains=yugmaimpressions.com
+
+
+User= yvmarathej
+Domains=yvmarathejewellers.com
+
+
+User= zawargauge
+Domains=zawargauges.com
+
+
+User= zealservi
+Domains=zeal-services.com
+
+
+User= zenithwor
+Domains=zenith-worldwide.com

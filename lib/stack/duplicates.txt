@@ -1,0 +1,10 @@
+01;Juan;Cali;ES;44
+01;José;Cali;ES;44
+01;Pedro;Cali;ES;44
+02;Albert;Edinburgh;;19
+02;Mark;;En;19
+03;Raisa;Hellsinki;FI;22
+03;Lisa;Hellsinki;;
+04;Gian;Roma;IT;33
+05;Loris;Sicilia;;
+05;Vera;Sicilia;;31
