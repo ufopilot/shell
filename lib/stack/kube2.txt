@@ -1,0 +1,3 @@
+NAME                                                              CPULIM   MEMLIM
+am-cbkc-plugin-55b9df956f-sh82g                                   1        2Gi
+amd-apigw-stack-6df456664f-sbdvc      

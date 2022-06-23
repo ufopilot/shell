@@ -1,0 +1,3 @@
+-rw-rw-r-- 1 bhagyaraj bhagyaraj  280000   Jun 17 18:34 demo1
+-rw-rw-r-- 1 bhagyaraj bhagyaraj  2800000  Jun 17 18:34 demo2
+-rw-rw-r-- 1 bhagyaraj bhagyaraj  28000000 Jun 17 18:35 demo3

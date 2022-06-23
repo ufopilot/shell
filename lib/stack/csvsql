@@ -1,0 +1,41 @@
+#!/bin/bash
+csql(){
+    csql_usage(){
+            echo "csql: exec sql on csv files" 
+            echo "  import table: -s <separator> -i -f <file> -t <table>"
+            echo "  exec sql: -h[header] -c[mode column] -s <separator> -e <sql-statement>"
+            echo "default separator is ${SEPARATOR}"
+            exit 1
+    }
+    
+    local SEPARATOR=","
+    local OPTIND o STATEMENT FILE IMPORT TABLE COLUMN HEADER
+    while getopts ":ce:f:hHis:t:" o; do
+        case "${o}" in
+            c) COLUMN="-column";;
+            e) STATEMENT="${OPTARG}";;
+            f) FILE=${OPTARG};;
+            i) IMPORT=1;;
+            s) SEPARATOR="${OPTARG}";;
+            t) TABLE="${OPTARG}";;
+            h) HEADER="-header";;
+            H) csql_usage;; 
+            *) csql_usage
+        esac
+    done
+    shift $((OPTIND-1)) 
+    [[ -z "${STATEMENT}" && -z "${IMPORT}" ]] && csql_usage
+    [ -n "${IMPORT}" ] && {
+        trap csql_on_exit EXIT
+        csql_db="csql.db$$"
+        csql_on_exit(){ rm -f "${csql_db}"; }
+        sqlite3 -csv -separator "${SEPARATOR}" "${csql_db}" ".import \"${FILE}\" \"${TABLE}\""
+    }
+    [ -n "${STATEMENT}" ] && sqlite3  ${HEADER}  ${COLUMN} -separator "${SEPARATOR}" "${csql_db}" "${STATEMENT}" 
+}
+#
+
+# ------------------------------------------------------------
+
+#csql -i -f ./ips.csv -t mytable
+#csql -s " " -e "SELECT ip, COUNT(*) FROM mytable GROUP BY ip;"

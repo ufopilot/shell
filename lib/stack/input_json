@@ -1,0 +1,8 @@
+{
+  "k1": 10,
+  "k2": "KEY2",
+  "k3": [],
+  "k4": -55.6,
+  "k6": { "k7": 1, "k8": [{ "k9": "true", "k10": "false" }] },
+  "k11": "THIS IS VERY LONG MESSAGE OF CHARACTERS UPTO 1024 BYTES"
+}

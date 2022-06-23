@@ -1,0 +1,8 @@
+Istanbul;J;TK;13;OK
+London;C;EN;28;OK
+London;K;EN;32;OK
+Paris;A;FR;30;OK
+Paris;B;FR;40;OK
+Zurich;G;DE;99;OK
+Zurich;H;DE;33;OK
+Zurich;G;DE;82;OK

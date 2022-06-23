@@ -3,19 +3,25 @@ input="db.txt"
 
 # check third field 
 echo "check third field"
-while read -r _ _ rec_column3 
+while IFS=" " read -r _ rec_column2 rec_column3 
 do
-  if [[ -z "$rec_column3" ]]; then
-    echo "not found" >&2;
+  if [[ -z "$rec_column3" || -z "$rec_column2" ]]; then
+    #echo "not found" >&2;
+    continue
+  elif ! [[ $rec_column2 =~ \.com$ ]] ; then
+    echo "$rec_column2 is not valid mail" >&2;
+    #continue
   elif ! [[ $rec_column3 =~ ^[0-9]+$ ]] ; then
     echo "'$rec_column3' is not a number" >&2;
+    continue
   elif [[ $((rec_column3 % 2)) -eq 0 ]]; then 
-    echo "'$rec_column3' is even" >&2
+    echo "$rec_column3 is valid and even" >&2
   else 
-    echo "'$rec_column3' is odd" >&2
+    echo "$rec_column3 is valid and odd" >&2
   fi     
 done < $input
 
+exit
 echo "-----------------------"
 # check last field
 echo "check last field"

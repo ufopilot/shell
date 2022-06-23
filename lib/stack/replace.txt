@@ -1,0 +1,6 @@
+```
+("java","php","ruby",".net","scala","c++",...n),
+(".net","ruby","php","java","c++",...n),
+("java",".net","ruby","php","c++",...n),
+("ruby","java",".net","php","c++",...n);
+```

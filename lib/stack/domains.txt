@@ -1,0 +1,4 @@
+IP DOMAIN
+10.0.10.1 example1.com
+10.0.10.2 example2.com
+10.0.10.3 example3.com
