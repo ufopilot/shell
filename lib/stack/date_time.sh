@@ -4,25 +4,17 @@ awk -F, '
         H=substr(dt,9,2); M=substr(dt,12,2); S=substr(dt,15,3)
         return Y" "m" "d" "H" "M" "S
     }
-    function toSeconds(t){ 
-        return mktime(formatDate(t)) 
-    }
-    NR==1{
-        print                                                      
-    }
-    NR>1{                                                           
-        a[$3][NR]["time"]=$1$2                                                                               
-        a[$3][NR]["row"]=$0                                         
-    }
+    NR==1{ print }
+    NR>1{ a[$3][NR]["time"]=$1$2; a[$3][NR]["row"]=$0;}
     END{
         for(firm in a){                                             
             if (length(a[firm]) > 3){                               
-                i=1
+                firstrow=1
                 for (n in a[firm]){                                 
-                    if (i==1) time = a[firm][n]["s"]                     
-                    diff = (toSeconds(a[firm][n]["time"]) - toSeconds(time))  
+                    if (firstrow != "") time = a[firm][n]["time"]                     
+                    diff = (mktime(formatDate(a[firm][n]["time"])) - mktime(formatDate(time)))  
                     if (diff >= 0 && diff < 30 ) print a[firm][n]["row"]                
-                    i++                                                                                   
+                    firstrow=""                                                                                
                 }
             }
         }
