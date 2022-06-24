@@ -1,0 +1,6 @@
+name = [
+    "victor",
+    "linda",
+    "harris",
+    "sandy"
+] 

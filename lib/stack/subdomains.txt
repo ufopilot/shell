@@ -1,0 +1,5 @@
+yahoo.com
+mail.yahoo.com
+a.yahoo.com
+a.b.yahoo.co.uk
+aus.co.au

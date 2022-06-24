@@ -1,3 +1,4 @@
+#GNU awk
 awk -F, '
     function formatDate(dt){
         Y=substr(dt,1,4); m=substr(dt,5,2); d=substr(dt,7,2)

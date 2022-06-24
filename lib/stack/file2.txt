@@ -1,0 +1,4 @@
+AE|^AE[0-9]{2}[0-9]{24}|United Arab Emirates|TRUE|
+PL|^PL[0-9]{2}[A-Z]{10}[0-9]{4}|Poland|FALSE|
+GB|^GB[0-9]{2}[A-Z]{5}[0-9]{3}|Europe|TRUE
+GF|^GB[0-9]{2}[A-Z]{5}[0-9]{3}|EuroUUpe|TRUE
