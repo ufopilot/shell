@@ -1,0 +1,3 @@
+echo a 
+eval echo $1
+echo b
