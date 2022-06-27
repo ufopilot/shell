@@ -1,0 +1,1 @@
+alias wsl='f(){ wsl.exe "$@" | iconv -f UTF16 | tr -d "\r" ; unset -f f; }; f'

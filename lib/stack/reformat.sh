@@ -1,6 +1,8 @@
 #!/bin/bash
 
 
+mlr --ocsv --ips : clean-whitespace < <(sed -E 's/Up since/,&:/; s/ ([0-1])\./\1/' output)
+
 awk -F' :|, |: ' -v OFS="," '
     NR==1{ 
         print $1,$3,$5,$7,"Up since"
@@ -8,22 +10,23 @@ awk -F' :|, |: ' -v OFS="," '
     {
         print $2,$4,$6,gensub(/([0-1])\. ?Up since ?(.*)/, "\\1,\\2", 1, $8)
     }' output
+
+
+ awk -F' :|, |: ' '
+     function formatRow(r){
+        return gensub(/([0-1])\. ?(Up since)/, "\\1, \\2:", 1, r)
+     }
+     NR==1{
+         $0 = formatRow($0) 
+         for(i=1;i<=NF-1;i+=2) printf (i==NF-1 ? "%s\n" : "%s,"), $i 
+     }
+     {
+         $0 = formatRow($0)
+         for(i=2;i<=NF;i+=2) printf (i==NF ? "%s\n" : "%s,"), $i
+}' output
+
 exit
 
-#  awk -F' :|, |: ' '
-#      function formatRow(r){
-#         return gensub(/([0-1])\. ?(Up since)/, "\\1, \\2:", 1, r)
-#      }
-#      NR==1{
-#          $0 = formatRow($0) 
-#          for(i=1;i<=NF-1;i+=2) printf (i==NF-1 ? "%s\n" : "%s,"), $i 
-#      }
-#      {
-#          $0 = formatRow($0)
-#          for(i=2;i<=NF;i+=2) printf (i==NF ? "%s\n" : "%s,"), $i
-# }' output
-
-# exit
 while IFS=" " read -r line; do
     readarray -t -d "," lineArray<<<"$line"
     row=""
