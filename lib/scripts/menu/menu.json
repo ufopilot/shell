@@ -1,0 +1,14 @@
+{
+	"header":[{
+    "title": "Applications",
+		"width": 30
+	},
+	{
+    "title": "Groups",
+		"width": 30
+	},
+	{
+    "title": "Hosts",
+		"width": 20
+	}]
+}

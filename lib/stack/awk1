@@ -1,0 +1,7 @@
+awk '{
+      gsub( /web[0-9][0-9]/,
+	"web"sprintf("%0.2d",gensub(/.*web([0-9][0-9]).*/, "\\1",1)+1))
+}1' log
+
+
+awk -F'web' 'NR==1{n=sprintf("%0.2d", $NF+1)}{gsub(/web([0-9][0-9])/,"web"n)}1' log

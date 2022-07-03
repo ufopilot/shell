@@ -1,0 +1,3 @@
+(id1) (name1) (x coordinate1) (y coordinate1) (value1)
+(id2) (name2) (x coordinate2) (y coordinate2) (value2) 
+(id3) (name3) (x coordinate3) (y coordinate3) (value3) 

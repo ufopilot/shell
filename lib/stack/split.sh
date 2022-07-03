@@ -1,0 +1,1 @@
+awk -F',' '!f{f=$1}!/,,,/{print $0>f;next}{f=""}' file3

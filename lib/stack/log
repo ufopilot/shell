@@ -1,0 +1,2 @@
+ln -s /dev/vg_ifmx_test_core4/rdsk_web04 /dev/itest17/dbs_web04
+/usr/sbin/lvcreate -L 2048 -n rdsk_web04 /dev/vg_ifmx_test_core4
