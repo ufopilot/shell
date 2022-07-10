@@ -1,6 +1,6 @@
 #!/bin/bash
-pwd
-config_file=../menu/config.json
+
+config_file=./config.json
 CONFIG=$(jq -r '.' "${config_file}")
 
 header_len=$(jq -r '.header|length' <<<"${CONFIG}")
@@ -10,6 +10,7 @@ for ((i=0; i<$header_len; i++)); do
     width=$(jq -r '.header['$i'].width' <<<"${CONFIG}") 
     printf "%-${width}s " "$title"
 done
+
 
 echo
 

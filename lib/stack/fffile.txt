@@ -1,0 +1,2 @@
+15.01.2018;Payment sent;;500.00;;
+20.12.2017;Payment received;10.40;;;

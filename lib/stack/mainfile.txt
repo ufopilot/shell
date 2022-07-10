@@ -1,0 +1,3 @@
+CHR     BP          FILE
+chr1    12345678    gwas1
+chr2    87654321    gwas2
