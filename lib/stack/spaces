@@ -1,0 +1,5 @@
+MAJOR        ab@cd.com        squid:uselessImportCheck        appname        2min        this is a random text        CODE_SMELL        "Unused import"        "Default-organization"
+MAJOR        ab@cd.com        squid:uselessImportCheck        appname        7min        random text here        BUG        "Unused import"        "Default-organization"
+MAJOR        ab@cd.com        squid:uselessImportCheck        appname        2min        random        VULNERABILITY        "Unused import"        "Default-organization"
+MAJOR        ab@cd.com        squid:uselessImportCheck        appname        9min        text        CODE_SMELL        "Unused import"        "Default-organization"
+MAJOR        ab@cd.com        squid:uselessImportCheck        appname        3min        text random        BUG        "Unused import"        "Default-organization"

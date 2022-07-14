@@ -1,0 +1,20 @@
+water
+{
+    nu              1.69e-3;
+    rho             8;
+}
+vapour
+{
+    rho             2;
+}
+right
+{
+    type            zeroGradient 6;
+    value           uniform (40 10 0);  
+
+}
+
+left
+{
+    value           uniform (0 5 0);    
+}

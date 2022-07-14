@@ -1,6 +1,3 @@
-Common
 B-ONLY
-Common
-Common
 Common
 B2-ONLY
