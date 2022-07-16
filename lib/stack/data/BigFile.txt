@@ -1,0 +1,9 @@
+\\IFRA-SCN-01001B.brz.com\ABC PTR,John.Mayn@brz.com
+\\IFRA-SCN-01001B.brz.com\ABC PTR,John.Mayn@brz.com
+\\IFRA-SCN-01001B.brz.com\bitshare\DOC TRIGGER,Peter.Salez@brz.com
+\\IFRA-SCN-01001B.brz.com\bitshare,Peter.Salez@brz.com
+\\IFRA-SCN-01001B.brz.com\bitshare\PFM FRAUD,Peter.Salez@brz.com
+\\IFRA-SCN-01001B.brz.com\Build Docs,Arlan.Boynoz@brz.com
+\\IFRA-SCN-01001B.brz.com\Build Docs,Arlan.Boynoz@brz.com
+\\IFRA-SCN-01002B.brz.com\Build Docs,Arlan.Boynoz@brz.com
+\\IFRA-SCN-01002B.brz.com\Build Docs,Arlan.Boynoz@brz.com
