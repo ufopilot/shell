@@ -1,0 +1,30 @@
+#!/bin/bash
+
+join_arr() { local d=$1 s=$2; shift 2 && printf %s "$s${@/#/$d}"; }
+space="   "
+row=()
+row+=(34)
+row+=("12Mi")
+row+=(122)
+row+=(123)
+row+=(333)
+row+=(450)
+declare -p row
+#printf "%s\n$space\n" "${row[@]}" | head -n-1 | paste -sd ''
+
+for i in {1..10}; do
+   join_arr "$space" "${row[@]}"
+   printf "\n\n"
+done
+exit
+
+
+
+
+
+LOGFILE='log'
+awk -v out="$LOGFILE" '
+    BEGIN{
+	OFS="   "; e=34; f="12Mi"; a=122; b=123; c=333; d=450; 
+	for(i=1;i<=10;i++) print e,f,a,b,c,d,"\n" > out
+    }'

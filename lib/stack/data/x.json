@@ -1,0 +1,27 @@
+ {
+        "name":"ko00001",
+        "children":[
+        {
+            "name":"09100 Metabolism",
+            "children":[
+            {
+                "name":"09101 Carbohydrate metabolism",
+                "children":[
+                {
+                    "name":"00010 Glycolysis \/ Gluconeogenesis [PATH:ko00010]",
+                    "children":[
+                    {
+                        "name":"K00844  HK; hexokinase [EC:2.7.1.1]"
+                    },
+                    {
+                        "name":"K12407  GCK; glucokinase [EC:2.7.1.2]"
+                    },
+                    {
+                        "name":"K00845  glk; glucokinase [EC:2.7.1.2]"
+		    }]
+		}]
+	   }
+
+	]}
+	]
+}

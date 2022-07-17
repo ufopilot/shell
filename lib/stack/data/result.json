@@ -1,0 +1,7 @@
+{"result": 
+[ 
+{ "name": "Bob", "PhoneNumber": "123-555" }, 
+{ "type": "user", "name": "Mike", "PhoneNumber": "234-555" }, 
+{ "type": "user", "name": "Amber", "PhoneNumber": "456-555" } 
+] 
+}

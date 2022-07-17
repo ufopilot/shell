@@ -1,0 +1,5 @@
+trap 'echo $BASH_COMMAND; RC=10' ERR
+RC=0
+lsjsh foo 
+jhshsmake bar 
+exit $RC
