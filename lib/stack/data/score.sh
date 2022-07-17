@@ -12,7 +12,6 @@ awk '
             row=arr[sorted_arr[i]]
             sub(/^[^ ]* /,"",row)
             print row
-            
         } 
     }
 ' score
