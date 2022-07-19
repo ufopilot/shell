@@ -1,0 +1,5 @@
+some other text
+some text
+firmware_version 12.4
+some more text
+some other text
