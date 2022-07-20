@@ -1,0 +1,10 @@
+ WARN [20.07.22 00:02:43.647] TaskManager .process() Processing task took longer than set threshold
+    |-|  |-| delayEvent=DelayEvent{eventName='UpdateUser', duration=65, endTime=1658275363647, averageValue=0, maxValue=637} | delayThreshold=50
+    |-| nanos=45293222359715481 | threadId=523 | threadName=ThreadManager | timestamp=1658275363647 | mid=nag1uu-1#42616
+    |-| layer=BAA |-| [ SISS]
+
+ WARN [20.07.22 00:02:44.689] TaskManager .process() Processing task took longer than set threshold
+    |-|  |-| delayEvent=DelayEvent{eventName='UpdateUser', duration=88, endTime=1658275364689, averageValue=0, maxValue=637} | delayThreshold=50
+    |-| nanos=45293223401808770 | threadId=523 | threadName=ThreadManager | timestamp=1658275364689 | mid=nag1uu-1#42616
+    |-| layer=BAA |-| [ SISS]
+

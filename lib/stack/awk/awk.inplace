@@ -1,0 +1,8 @@
+GNU awk
+
+The inplace extension emulates GNU sed’s -i option, which performs “in-place” editing of each input file. It uses the bundled inplace.awk include file to invoke the extension properly. source
+
+awk -i inplace '{print $2*3}' file 
+To keep a backup copy of the original file, try this:
+
+awk -i inplace -v inplace::suffix=.bak '{print $2*3}' file
