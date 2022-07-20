@@ -1,4 +1,3 @@
-
 awk -F '[\\[\\]=,]' '/TaskManager/{tsp=$2}/duration/{print tsp"\t"$5}' duration
 awk -v RS= -F'[][,=]+' '$0=$2"\t"$7' duration
 # awk -F '[=,]' ' 
