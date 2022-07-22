@@ -1,0 +1,14 @@
+#!/bin/bash
+#cd ./images || exit           
+
+array=$(find ./images -mindepth 1 -maxdepth 1 -type d -printf "%P\n"|sort -n)
+#array=$(ls -d ./*|sort -n)
+selection=( "${array[@]:1:12}" )
+#cd .. || exit
+
+for sub in "${selection[@]}"
+do
+    echo " ### $sub"
+done
+#while IFS= read -r sub
+#done < <(find ./images -maxdepth 1 -type d -printf "%P\n"|sort -n)

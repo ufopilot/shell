@@ -1,0 +1,9 @@
+attacks:
+- name: normal fist:
+  type:	melee
+  damage:	3
+- name: thunder fist:
+  type:	melee
+  damage:	5
+  attributes:
+  - electrical
