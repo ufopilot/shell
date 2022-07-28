@@ -1,0 +1,3 @@
+>tr|I1WXP1|I1WXP1_9EURY Methyl coenzyme M reductase subunit A (Fragment) OS=uncultured euryarchaeote OX=114243 GN=mcrA PE=4 SV=1
+>tr|A0A059VAR9|A0A059VAR9_9EURY V-type ATP synthase beta chain (Fragment) OS=Halorubrum sp. Ga66 OX=1480727 GN=atpB PE=3 SV=1
+>tr|Q51760|Q51760_9EURY Glutaredoxin-like protein OS=Pyrococcus furiosus OX=2261 PE=1 SV=1

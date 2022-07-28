@@ -1,0 +1,24 @@
+#!/bin/bash
+
+
+declare -a line0=(00 01 02   )
+declare -a line1=(10 11      )
+declare -a line2=(10 11      )
+declare -a line3=(10 11 12   )
+declare -a line4=(10 11 12   )
+declare -a line5=(10 11      )
+declare -a line6=(10 11      )
+declare -a line7=(10         )
+declare -a line8=(10 11      )
+declare -a line9=(90 91 92 93)
+rows=9
+
+#for((i=1;i<=rows; i++)); do lines+="line$i " ;done
+#eval declare -p "$lines"| awk -F= '{sub(/^.* -a /,""); print $1,NF-2}'
+
+#seq 1 $rows | xargs -I {} echo line{} |declare -p
+#declare -p $(seq 1 $rows | xargs -I {} echo line{})
+#|awk -F'[= ]' '{print $3, NF-2}'
+#declare -p $(seq 1 "$rows" | xargs -I {} echo line{})|awk -F'[][ =]' '{print $3,$(NF-2)+1}' 
+#declare -p $(seq 1 "$rows"|xargs -I {} echo line{})|awk -F'[][ =]' '{print $3,$(NF-2)+1}'
+declare -p $(seq 1 "$rows"|xargs -I {} echo line{})|awk -F'[][ =]' '{print $3,$(NF-2)+1}' 

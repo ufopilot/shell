@@ -1,0 +1,5 @@
+||example.com^$third-party
+||example2.com^$third-party
+||example.com^
+||example.com/
+||example.com^

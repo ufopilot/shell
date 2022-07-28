@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+log() {
+    sed 's/^/[log]: /'
+}
+_ping(){
+    ping $1 2>&1 | log
+}
+
+if [[ $1 == 1 ]]; then
+    (ping 1.1.1.1 2>&1 | sed 's/^/[log]: /') &
+else
+    _ping 1.1.1.1 & 
+fi
+
+wait
